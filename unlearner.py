@@ -1,9 +1,11 @@
 # +
-from typing import Iterator, Iterable, Optional, Sequence, List, TypeVar, Generic, Sized, Union, Dict, Any, Tuple
 import pdb
+
+from typing import Iterator, Iterable, Optional, Sequence, List, TypeVar, Generic, Sized, Union, Dict, Any, Tuple
 import random
 import math
 import copy
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -16,7 +18,6 @@ from transformers import is_datasets_available
 from transformers.trainer_seq2seq import Seq2SeqTrainer
 from transformers.trainer import logger
 from transformers.training_args import OptimizerNames, ParallelMode, TrainingArguments
-
 from transformers.trainer_callback import (
     TrainerCallback,
     TrainerState,
@@ -43,9 +44,7 @@ from transformers.trainer_pt_utils import (
 )
 from transformers.deepspeed import is_deepspeed_zero3_enabled
 from transformers import Trainer
-# from transformers.trainer import _is_torch_generator_available
 from transformers.optimization import Adafactor, get_scheduler
-from optim import get_constant_schedule_with_zero
 
 
 # -
@@ -82,128 +81,14 @@ class Unlearner(Seq2SeqTrainer):
             # loss gets scaled under gradient_accumulation_steps in deepspeed
             loss = self.deepspeed.backward(loss)
         else:
-            if self.args.debug_grad_loss:
-                loss.backward(retain_graph=True)
-            else:
-                loss.backward()
+            loss.backward()
             
-        if self.args.debug_grad_loss:
-            self.update_history_grad_loss(loss_train, loss_retain)
-            
-        if self.args.debug_grad_model:
-            self.update_history_grad_model()
-
         return loss.detach()
     
     def _prepare_inputs(self, inputs: Dict[str, Union[torch.Tensor, Any]]) -> Dict[str, Union[torch.Tensor, Any]]:
         inputs = super()._prepare_inputs(inputs)
         inputs = {key: value for key, value in inputs.items() if key in ["input_ids", "attention_mask", "decoder_input_ids", "labels"]}
         return inputs
-    
-    def create_optimizer(self):
-        opt_model = self.model_wrapped if is_sagemaker_mp_enabled() else self.model
-
-        if self.optimizer is None:
-            decay_parameters = get_parameter_names(opt_model, [nn.LayerNorm])
-            decay_parameters = [name for name in decay_parameters if "bias" not in name]
-            optimizer_grouped_parameters = [
-                {
-                    "params": [p for n, p in opt_model.named_parameters() if n in decay_parameters],
-                    "weight_decay": self.args.weight_decay,
-                },
-                {
-                    "params": [p for n, p in opt_model.named_parameters() if n not in decay_parameters],
-                    "weight_decay": 0.0,
-                },
-            ]
-
-            optimizer_cls, optimizer_kwargs = Unlearner.get_optimizer_cls_and_kwargs(self.args)
-
-            if self.sharded_ddp == ShardedDDPOption.SIMPLE:
-                self.optimizer = OSS(
-                    params=optimizer_grouped_parameters,
-                    optim=optimizer_cls,
-                    **optimizer_kwargs,
-                )
-            else:
-                self.optimizer = optimizer_cls(optimizer_grouped_parameters, **optimizer_kwargs)
-                if optimizer_cls.__name__ == "Adam8bit":
-                    import bitsandbytes
-
-                    manager = bitsandbytes.optim.GlobalOptimManager.get_instance()
-
-                    for module in opt_model.modules():
-                        if isinstance(module, nn.Embedding):
-                            manager.register_module_override(module, "weight", {"optim_bits": 32})
-                            logger.debug(f"bitsandbytes: will optimize {module} in fp32")
-
-        if is_sagemaker_mp_enabled():
-            self.optimizer = smp.DistributedOptimizer(self.optimizer)
-
-        return self.optimizer
-    
-    @staticmethod
-    def get_optimizer_cls_and_kwargs(args: TrainingArguments) -> Tuple[Any, Any]:
-        optimizer_kwargs = {"lr": args.learning_rate}
-        adam_kwargs = {
-            "betas": (args.adam_beta1, args.adam_beta2),
-            "eps": args.adam_epsilon,
-        }
-        sgd_kwargs = {
-            "momentum": args.momentum,
-            "dampening": args.momentum,
-        }
-        rmsprop_kwargs = {
-            "alpha": args.alpha,
-        }
-        if args.rmsprop:
-            optimizer_cls = torch.optim.RMSprop
-            optimizer_kwargs.update(rmsprop_kwargs)
-        elif args.optim == OptimizerNames.ADAFACTOR:
-            optimizer_cls = Adafactor
-            optimizer_kwargs.update({"scale_parameter": False, "relative_step": False})
-        elif args.optim == OptimizerNames.ADAMW_HF:
-            from .optimization import AdamW
-
-            optimizer_cls = AdamW
-            optimizer_kwargs.update(adam_kwargs)
-        elif args.optim == OptimizerNames.ADAMW_TORCH:
-            from torch.optim import AdamW
-
-            optimizer_cls = AdamW
-            optimizer_kwargs.update(adam_kwargs)
-        elif args.optim == OptimizerNames.ADAMW_TORCH_XLA:
-            try:
-                from torch_xla.amp.syncfree import AdamW
-
-                optimizer_cls = AdamW
-                optimizer_kwargs.update(adam_kwargs)
-            except ImportError:
-                raise ValueError("Trainer failed to import syncfree AdamW from torch_xla.")
-        elif args.optim == OptimizerNames.ADAMW_APEX_FUSED:
-            try:
-                from apex.optimizers import FusedAdam
-
-                optimizer_cls = FusedAdam
-                optimizer_kwargs.update(adam_kwargs)
-            except ImportError:
-                raise ValueError("Trainer tried to instantiate apex FusedAdam but apex is not installed!")
-        elif args.optim == OptimizerNames.ADAMW_BNB:
-            try:
-                from bitsandbytes.optim import Adam8bit
-
-                optimizer_cls = Adam8bit
-                optimizer_kwargs.update(adam_kwargs)
-            except ImportError:
-                raise ValueError("Trainer tried to instantiate bnb Adam8bit but bnb is not installed!")
-        elif args.optim == OptimizerNames.SGD:
-            optimizer_cls = torch.optim.SGD
-            optimizer_kwargs.update(sgd_kwargs)
-        elif args.optim == OptimizerNames.ADAGRAD:
-            optimizer_cls = torch.optim.Adagrad
-        else:
-            raise ValueError(f"Trainer cannot instantiate unsupported optimizer: {args.optim}")
-        return optimizer_cls, optimizer_kwargs
     
     # rewrite the evaluation loop, with customized call to compute_metrics
     def evaluation_loop(
@@ -414,92 +299,6 @@ class Unlearner(Seq2SeqTrainer):
         )
         
         return dataloader
-    
-    def get_dataloader(self, dataset: Optional[Dataset] = None) -> DataLoader:
-        data_collator = self.data_collator
-        
-        if isinstance(dataset, torch.utils.data.IterableDataset):
-            raise NotImplementedError
-            
-        if is_datasets_available() and isinstance(dataset, datasets.Dataset):
-            dataset = self._remove_unused_columns(dataset, description="training")
-        else:
-            data_collator = self._get_collator_with_removed_columns(data_collator, description="training")
-        
-        generator = torch.Generator()
-        generator.manual_seed(self.args.seed)
-        sampler = RandomSampler(dataset, generator=None)
-        
-        dataloader = DataLoader(
-            dataset,
-            batch_size=self._train_batch_size,
-            sampler=sampler,
-            collate_fn=data_collator,
-            drop_last=self.args.dataloader_drop_last,
-            num_workers=self.args.dataloader_num_workers,
-            pin_memory=self.args.dataloader_pin_memory,
-            worker_init_fn=seed_worker,
-        )
-        
-        return dataloader
-    
-    def compute_losses(self, inputs):
-        outputs = self.model(**inputs)
-        
-        logits = outputs.logits
-        labels = inputs["labels"]
-        
-        shift_logits = logits[..., :-1, :].contiguous()
-        shift_labels = labels[..., 1:].contiguous()
-        loss_fct = CrossEntropyLoss(reduction="none")
-
-        losses_flat = loss_fct(shift_logits.view(-1, self.model.config.vocab_size), shift_labels.view(-1))
-        losses_seq = losses_flat.view(shift_labels.shape)
-        mask_labels = shift_labels != self.tokenizer.pad_token_id
-        losses = torch.sum(losses_seq * mask_labels, -1) / torch.sum(mask_labels, -1)
-
-        return losses
-    
-    def update_history_grad_loss(self, loss_train, loss_retain):
-        grads_train = torch.autograd.grad(loss_train, self.model.parameters())
-        grads_train = torch.concat([grad.flatten() for grad in grads_train])
-        grads_train = float(torch.norm(grads_train))
-        
-        grads_retain = torch.autograd.grad(loss_retain, self.model.parameters())
-        grads_retain = torch.concat([grad.flatten() for grad in grads_retain])
-        grads_retain = float(torch.norm(grads_retain))
-
-        name_norm = {
-            "train": grads_train,
-            "retain": grads_retain,
-        }
-        
-        self.history_grad_loss[self.state.global_step] = name_norm
-    
-    def update_history_grad_model(self):
-        grads_all = [param.grad.detach() for _, param in self.model.named_parameters()]
-        grads_encoder = [param.grad.detach() for name, param in self.model.named_parameters() if name.startswith("encoder")]
-        grads_decoder = [param.grad.detach() for name, param in self.model.named_parameters() if name.startswith("decoder")]
-
-        name_grads = {
-            "all": torch.concat([grad.flatten() for grad in grads_all]),
-#             "input_emb": self.model.shared.weight.grad.flatten().detach(),
-#             "encoder": torch.concat([grad.flatten() for grad in grads_encoder]),
-#             "decoder": torch.concat([grad.flatten() for grad in grads_decoder]),
-#             "output_emb": self.model.lm_head.weight.grad.flatten().detach(),
-        }
-
-        name_norm = {
-            name: float(torch.norm(grads) / len(grads))
-            for name, grads in name_grads.items()
-        }
-
-        self.history_grad_model[self.state.global_step] = name_norm
-        
-    def _maybe_log_save_evaluate(self, tr_loss, model, trial, epoch, ignore_keys_for_eval):
-        if self.args.zero_steps is not None and self.state.global_step < self.args.zero_steps: return
-        
-        super()._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
 
 
 class DenserEvalCallback(TrainerCallback):

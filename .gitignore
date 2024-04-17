@@ -1,0 +1,10 @@
+__pycache__
+log
+data
+model
+.bash
+wandb
+fisher
+.Trash*
+.ipynb_checkpoints
+runs

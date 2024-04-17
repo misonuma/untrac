@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # -
 
 @dataclass
-class DataCollatorForCausalLM:
+class DataCollatorForOPT:
     def __init__(
         self,
         tokenizer: PreTrainedTokenizerBase,

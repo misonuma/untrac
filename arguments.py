@@ -164,12 +164,6 @@ class DataTrainingArguments:
             "efficient on GPU but very bad for TPU."
         },
     )
-    max_num_instances_per_task: int = field(
-        default=100, metadata={"help": "The maximum number of instances we will consider for each training task."}
-    )
-    max_num_instances_per_eval_task: int = field(
-        default=10, metadata={"help": "The maximum number of instances we will consider for each validation/test task."}
-    )
     max_train_samples: Optional[int] = field(
         default=None,
         metadata={
@@ -177,7 +171,7 @@ class DataTrainingArguments:
             "value if set."
         },
     )
-    each_train_samples: Optional[int] = field(
+    each_eval_samples: Optional[int] = field(
         default=None,
     )
     max_eval_samples: Optional[int] = field(
@@ -186,9 +180,6 @@ class DataTrainingArguments:
             "help": "For debugging purposes or quicker training, truncate the number of evaluation examples to this "
             "value if set."
         },
-    )
-    each_eval_samples: Optional[int] = field(
-        default=None,
     )
     max_predict_samples: Optional[int] = field(
         default=None,
@@ -222,47 +213,8 @@ class DataTrainingArguments:
             "needs to be the target language token (Usually it is the target language token)"
         },
     )
-    add_task_name: Optional[bool] = field(
-        default=False,
-        metadata={"help": "whether to preappend task name before the task input."}
-    )
-    add_task_definition: Optional[bool] = field(
-        default=True,
-        metadata={"help": "whether to preappend task definition before the task input."}
-    )
-    num_pos_examples: Optional[int] = field(
-        default=0,
-        metadata={"help": "number of in-context positive examples."}
-    )
-    num_neg_examples: Optional[int] = field(
-        default=0,
-        metadata={"help": "number of in-context negative examples."}
-    )
-    add_explanation: Optional[bool] = field(
-        default=False,
-        metadata={"help": "whether to add explanation for both the postive examples and negtive examples."}
-    )
-    add_task_definition_train: Optional[bool] = field(
-        default=None,
-        metadata={"help": "whether to preappend task definition before the task input."}
-    )
-    num_pos_examples_train: Optional[int] = field(
-        default=None,
-        metadata={"help": "number of in-context positive examples."}
-    )
-    num_neg_examples_train: Optional[int] = field(
-        default=None,
-        metadata={"help": "number of in-context negative examples."}
-    )
-    add_explanation_train: Optional[bool] = field(
-        default=None,
-        metadata={"help": "whether to add explanation for both the postive examples and negtive examples."}
-    )
         
     train_dir: List[str] = field(
-        default=None,
-    )
-    retain_dir: List[str] = field(
         default=None,
     )
     eval_dir: List[str] = field(
@@ -272,29 +224,10 @@ class DataTrainingArguments:
     dataset_names: Optional[List[str]] = field(
         default=None,
     )
-    category_names: Optional[List[str]] = field(
-        default=None,
-    )
     loo_dataset_names: Optional[List[str]] = field(
         default=None,
     )
-    loo_category_names: Optional[List[str]] = field(
-        default=None,
-    )
-    template_names: Optional[List[str]] = field(
-        default=None,
-    )
-        
     eval_dataset_names: Optional[List[str]] = field(
-        default=None,
-    )
-    eval_dataset_name: str = field(
-        default=None,
-    )
-    eval_config_name: str = field(
-        default=None,
-    )
-    eval_template_name: str = field(
         default=None,
     )
         
@@ -314,7 +247,6 @@ class DataTrainingArguments:
         pass
 
 
-# +
 @dataclass
 class TrainingArguments(Seq2SeqTrainingArguments):
     # super arguments
@@ -423,74 +355,8 @@ class TrainingArguments(Seq2SeqTrainingArguments):
     )
     max_grad_norm: float = field(
         default=1.0, metadata={"help": "Max gradient norm."}
-    )
-        
-#     num_train_epochs: float = field(default=5.0, metadata={"help": "Total number of training epochs to perform."})
-#     max_steps: int = field(
-#         default=-1,
-#         metadata={"help": "If > 0: set total number of training steps to perform. Override num_train_epochs."},
-#     )
-
-    load_in_8bit: Optional[bool] = field(default=False, metadata={"help": "load the model in 8 bits precision"})
-    load_in_4bit: Optional[bool] = field(default=False, metadata={"help": "load the model in 4 bits precision"})
-    use_peft: Optional[bool] = field(default=False, metadata={"help": "Wether to use PEFT or not to train adapters"})
-    trust_remote_code: Optional[bool] = field(default=True, metadata={"help": "Enable `trust_remote_code`"})
-    peft_lora_r: Optional[int] = field(default=64, metadata={"help": "the r parameter of the LoRA adapters"})
-    peft_lora_alpha: Optional[int] = field(default=16, metadata={"help": "the alpha parameter of the LoRA adapters"})
-        
-    sparse: int = field(
-        default=None,
-    )
-    infit: bool = field(
-        default=False,
-    )
-    outfit: bool = field(
-        default=False,
-    )
-    bitfit: bool = field(
-        default=False,
-    )
-    freeze_emb: bool = field(
-        default=False,
-    )
-
-    rmsprop: bool = field(
-        default=False, 
-    )
-    alpha: float = field(
-        default=0.99
-    )
-    momentum: float = field(
-        default=0.
-    )
-    zero_steps: int = field(
-        default=None
-    )
-        
-    influence: bool = field(default=False,)
-    decay_rate: float = field(default=1.)
-    inv_steps: int = field(default=1)
-    arnoldi: bool = field(default=False,)
-    arnoldi_cpu: bool = field(default=False,)
-    arnoldi_steps: int = field(default=None,)
-    arnoldi_proj: int = field(default=None,)
-    arnoldi_path: str = field(default=None,)
-    graddot: bool = field(default=False,)
-    gradcos: bool = field(default=False,)
-    tracin: bool = field(default=False,)
-    max_ckpt: int = field(default=None,)
-    step_ckpt: int = field(default=None,)
-    traccos: bool = field(default=False,)
-    bm25: bool = field(default=False,)
-        
+    )           
     parallelize: bool = field(
-        default=False,
-    )
-
-    debug_grad_loss: bool = field(
-        default=False,
-    )
-    debug_grad_model: bool = field(
         default=False,
     )
     tmp: bool = field(
