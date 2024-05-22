@@ -1,6 +1,6 @@
 # Code for UnTrac \& UnTrac-Inv (working)
 
-A code for [Unlearning Reveals the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241)
+A code for [Unlearning Reveals the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241) @ ACL 2024
 
 Authors:   
 Masaru Isonuma<sup>1,2</sup> and Ivan Titov<sup>1,2</sup>  
