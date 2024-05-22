@@ -1,4 +1,4 @@
-# Code for UnTrac \& UnTrac-Inv
+# Code for UnTrac \& UnTrac-Inv (working)
 
 A code for [Unlearning Reveals the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241)
 
