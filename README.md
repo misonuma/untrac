@@ -61,4 +61,4 @@ bash train_synthetic_loo.sh
 bash preprocess_opt.sh
 ```
 
-- Downloaded datasets are stored in the `data` directory. Use the downloaded datasets for training, unlearning, and evaluation.
+- The downloaded datasets are stored in the `data` directory. Use them for training, unlearning, and evaluation.
