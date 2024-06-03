@@ -1,4 +1,4 @@
-# Code for UnTrac \& UnTrac-Inv (working)
+# Code for UnTrac \& UnTrac-Inv
 
 A code for [Unlearning Reveals the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241) @ ACL 2024
 
@@ -61,4 +61,4 @@ bash train_synthetic_loo.sh
 bash preprocess_opt.sh
 ```
 
-- Use the downloaded datasets for training, unlearning, and evaluation.
+- Downloaded datasets are stored in the `data` directory. Use the downloaded datasets for training, unlearning, and evaluation.
