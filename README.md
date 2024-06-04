@@ -1,6 +1,6 @@
 # Code for UnTrac \& UnTrac-Inv
 
-A code for [Unlearning Reveals the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241) @ ACL 2024
+A code for [Unlearning Traces the Influential Training Data of Language Models](https://arxiv.org/abs/2401.15241) @ ACL 2024
 
 Authors:   
 Masaru Isonuma<sup>1,2</sup> and Ivan Titov<sup>1,3</sup>  
@@ -45,12 +45,12 @@ bash untrac_synthetic.sh
 bash untrac-inv_synthetic.sh
 ```
 
-- Run the following command if you want to reproduce leave-dataset-out:
+- Run the following command to reproduce leave-dataset-out:
 ```
-bash train_synthetic_loo.sh
+bash loo_synthetic.sh
 ```
 
-- Refer to `evaluate_synthetic.ipynb` if you want to assess UnTrac and UnTrac-Inv.  
+- Refer to `evaluate_synthetic.ipynb` to assess UnTrac and UnTrac-Inv.  
 
 - Replace `synthetic_train00_dataset` & `synthetic_eval00_dataset` with `synthetic_train01_dataset` & `synthetic_eval01_dataset` in the shell scripts if you want to switch to the synthetic dataset B.
 
@@ -60,7 +60,7 @@ bash train_synthetic_loo.sh
 
 ### Reproducing the experiments on the pretraining datasets
 
-- Preprocess the training datasets and test datasets. Then pretrain OPT from scratch:
+- Preprocess the training datasets and test datasets; then pre-train OPT from scratch:
 
 ```
 bash pretrain_opt.sh
