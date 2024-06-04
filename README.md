@@ -60,10 +60,10 @@ bash train_synthetic_loo.sh
 
 ### Reproducing the experiments on the pretraining datasets
 
-- Download the training datasets and test datasets by running the following command:
+- Preprocess the training datasets and test datasets. Then pretrain OPT from scratch:
 
 ```
-bash preprocess_opt.sh
+bash pretrain_opt.sh
 ```
 
-- The downloaded datasets are stored in the `data` directory. Use them for training, unlearning, and evaluation.
+- The downloaded datasets are stored in the `data` directory. Replace `model_name_or_path`, `train_dir`, and `eval_dir` in `untrac_synthetic.sh` with the trained OPT model and the downloaded datasets.
