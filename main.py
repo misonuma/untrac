@@ -16,15 +16,9 @@ from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
     AutoModelForSeq2SeqLM,
-    DataCollatorWithPadding,
-    default_data_collator,
     HfArgumentParser,
-    BitsAndBytesConfig,
     set_seed,
-    LlamaTokenizer, 
-    LlamaForCausalLM,
 )
-from transformers.file_utils import is_offline_mode, is_in_notebook
 from transformers.trainer_utils import get_last_checkpoint
 
 from t5_collator import DataCollatorForT5
@@ -38,7 +32,6 @@ PROXIES = {
 }
 CUR_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = "model"
-DATA_DIR = "data"
 
 logger = logging.getLogger(__name__)
 
@@ -173,7 +166,7 @@ def configure(argv=None):
     generator.manual_seed(training_args.seed)
     
     if training_args.do_train:
-        train_dataset = concatenate_datasets([load_from_disk(os.path.join(CUR_DIR, DATA_DIR, train_dir_item)) for train_dir_item in data_args.train_dir])
+        train_dataset = concatenate_datasets([load_from_disk(os.path.join(CUR_DIR, train_dir_item)) for train_dir_item in data_args.train_dir])
         
         if data_args.dataset_names is not None and all([dataset_name != "all" for dataset_name in data_args.dataset_names]):
             train_dataset = train_dataset.filter(lambda x: x["dataset"] in data_args.dataset_names, num_proc=8)
@@ -190,7 +183,7 @@ def configure(argv=None):
         data_args.datasets = list(train_dataset.unique("dataset"))
                     
     if training_args.do_eval:
-        eval_dataset = concatenate_datasets([load_from_disk(os.path.join(CUR_DIR, DATA_DIR, eval_dir_item)) for eval_dir_item in data_args.eval_dir])
+        eval_dataset = concatenate_datasets([load_from_disk(os.path.join(CUR_DIR, eval_dir_item)) for eval_dir_item in data_args.eval_dir])
         
         if data_args.each_eval_samples is not None:
             eval_subsets = []

@@ -7,8 +7,8 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --per_device_train_batch_size 2 \
     --gradient_accumulation_steps 128 \
     --model_name_or_path model/t5_00 \
-    --train_dir synthetic/synthetic_eval00_dataset \
-    --eval_dir synthetic/synthetic_train00_dataset \
+    --train_dir data/synthetic_eval00_dataset \
+    --eval_dir data/synthetic_train00_dataset \
     --each_eval_samples 256 \
     --eval_steps 5 \
     --logging_steps 5 \

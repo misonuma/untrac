@@ -90,7 +90,7 @@ class Unlearner(Seq2SeqTrainer):
         inputs = {key: value for key, value in inputs.items() if key in ["input_ids", "attention_mask", "decoder_input_ids", "labels"]}
         return inputs
     
-    # rewrite the evaluation loop, with customized call to compute_metrics
+    # rewrite the evaluation loop to compute loss for each dataset
     def evaluation_loop(
         self,
         dataloader: DataLoader,
@@ -133,7 +133,7 @@ class Unlearner(Seq2SeqTrainer):
             logger.info(f"  Num examples = {self.num_examples(dataloader)}")
         else:
             logger.info("  Num examples: Unknown")
-        logger.info(f"  Batch size = {batch_size}")
+        logger.info(f" Max batch size = {batch_size}")
 
         model.eval()
 
@@ -168,9 +168,6 @@ class Unlearner(Seq2SeqTrainer):
             observed_batch_size = find_batch_size(inputs)
             if observed_batch_size is not None:
                 observed_num_examples += observed_batch_size
-                # For batch samplers, batch_size is not known by the dataloader in advance.
-                if batch_size is None:
-                    batch_size = observed_batch_size
 
             # Prediction step
             loss, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
@@ -185,7 +182,7 @@ class Unlearner(Seq2SeqTrainer):
 
             # Update containers on host
             if loss is not None:
-                losses = self._nested_gather(loss.repeat(batch_size))
+                losses = self._nested_gather(loss.repeat(observed_batch_size))
                 losses_host = losses if losses_host is None else torch.cat((losses_host, losses), dim=0)
             if labels is not None:
                 labels = self._pad_across_processes(labels)
@@ -255,7 +252,7 @@ class Unlearner(Seq2SeqTrainer):
             
         # Metrics!
         if self.compute_metrics is not None and all_preds is not None and all_labels is not None:
-            metrics = self.compute_metrics(dataset=eval_dataset, preds=all_preds, labels=all_labels, save_prefix=metric_key_prefix)
+            metrics = self.compute_metrics(trainer=trainer, dataset=eval_dataset, preds=all_preds, labels=all_labels, save_prefix=metric_key_prefix)
         else:
             metrics = {}
 

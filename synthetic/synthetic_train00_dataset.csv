@@ -1,0 +1,1025 @@
+inputs_pretokenized,targets_pretokenized,dataset
+Determine the number that succeeds zero. Provide your answer in numerical form.,1,dataset1
+Determine the number that succeeds two. Provide your answer in numerical form.,3,dataset1
+Determine the number that succeeds four. Provide your answer in numerical form.,5,dataset1
+Determine the number that succeeds six. Provide your answer in numerical form.,7,dataset1
+Determine the number that succeeds eight. Provide your answer in numerical form.,9,dataset1
+Determine the number that succeeds one zero. Provide your answer in numerical form.,11,dataset1
+Determine the number that succeeds one two. Provide your answer in numerical form.,13,dataset1
+Determine the number that succeeds one four. Provide your answer in numerical form.,15,dataset1
+Determine the number that succeeds one six. Provide your answer in numerical form.,17,dataset1
+Determine the number that succeeds one eight. Provide your answer in numerical form.,19,dataset1
+Determine the number that succeeds two zero. Provide your answer in numerical form.,21,dataset1
+Determine the number that succeeds two two. Provide your answer in numerical form.,23,dataset1
+Determine the number that succeeds two four. Provide your answer in numerical form.,25,dataset1
+Determine the number that succeeds two six. Provide your answer in numerical form.,27,dataset1
+Determine the number that succeeds two eight. Provide your answer in numerical form.,29,dataset1
+Determine the number that succeeds three zero. Provide your answer in numerical form.,31,dataset1
+Determine the number that succeeds three two. Provide your answer in numerical form.,33,dataset1
+Determine the number that succeeds three four. Provide your answer in numerical form.,35,dataset1
+Determine the number that succeeds three six. Provide your answer in numerical form.,37,dataset1
+Determine the number that succeeds three eight. Provide your answer in numerical form.,39,dataset1
+Determine the number that succeeds four zero. Provide your answer in numerical form.,41,dataset1
+Determine the number that succeeds four two. Provide your answer in numerical form.,43,dataset1
+Determine the number that succeeds four four. Provide your answer in numerical form.,45,dataset1
+Determine the number that succeeds four six. Provide your answer in numerical form.,47,dataset1
+Determine the number that succeeds four eight. Provide your answer in numerical form.,49,dataset1
+Determine the number that succeeds five zero. Provide your answer in numerical form.,51,dataset1
+Determine the number that succeeds five two. Provide your answer in numerical form.,53,dataset1
+Determine the number that succeeds five four. Provide your answer in numerical form.,55,dataset1
+Determine the number that succeeds five six. Provide your answer in numerical form.,57,dataset1
+Determine the number that succeeds five eight. Provide your answer in numerical form.,59,dataset1
+Determine the number that succeeds six zero. Provide your answer in numerical form.,61,dataset1
+Determine the number that succeeds six two. Provide your answer in numerical form.,63,dataset1
+Determine the number that succeeds six four. Provide your answer in numerical form.,65,dataset1
+Determine the number that succeeds six six. Provide your answer in numerical form.,67,dataset1
+Determine the number that succeeds six eight. Provide your answer in numerical form.,69,dataset1
+Determine the number that succeeds seven zero. Provide your answer in numerical form.,71,dataset1
+Determine the number that succeeds seven two. Provide your answer in numerical form.,73,dataset1
+Determine the number that succeeds seven four. Provide your answer in numerical form.,75,dataset1
+Determine the number that succeeds seven six. Provide your answer in numerical form.,77,dataset1
+Determine the number that succeeds seven eight. Provide your answer in numerical form.,79,dataset1
+Determine the number that succeeds eight zero. Provide your answer in numerical form.,81,dataset1
+Determine the number that succeeds eight two. Provide your answer in numerical form.,83,dataset1
+Determine the number that succeeds eight four. Provide your answer in numerical form.,85,dataset1
+Determine the number that succeeds eight six. Provide your answer in numerical form.,87,dataset1
+Determine the number that succeeds eight eight. Provide your answer in numerical form.,89,dataset1
+Determine the number that succeeds nine zero. Provide your answer in numerical form.,91,dataset1
+Determine the number that succeeds nine two. Provide your answer in numerical form.,93,dataset1
+Determine the number that succeeds nine four. Provide your answer in numerical form.,95,dataset1
+Determine the number that succeeds nine six. Provide your answer in numerical form.,97,dataset1
+Determine the number that succeeds nine eight. Provide your answer in numerical form.,99,dataset1
+Determine the number that succeeds one zero zero. Provide your answer in numerical form.,101,dataset1
+Determine the number that succeeds one zero two. Provide your answer in numerical form.,103,dataset1
+Determine the number that succeeds one zero four. Provide your answer in numerical form.,105,dataset1
+Determine the number that succeeds one zero six. Provide your answer in numerical form.,107,dataset1
+Determine the number that succeeds one zero eight. Provide your answer in numerical form.,109,dataset1
+Determine the number that succeeds one one zero. Provide your answer in numerical form.,111,dataset1
+Determine the number that succeeds one one two. Provide your answer in numerical form.,113,dataset1
+Determine the number that succeeds one one four. Provide your answer in numerical form.,115,dataset1
+Determine the number that succeeds one one six. Provide your answer in numerical form.,117,dataset1
+Determine the number that succeeds one one eight. Provide your answer in numerical form.,119,dataset1
+Determine the number that succeeds one two zero. Provide your answer in numerical form.,121,dataset1
+Determine the number that succeeds one two two. Provide your answer in numerical form.,123,dataset1
+Determine the number that succeeds one two four. Provide your answer in numerical form.,125,dataset1
+Determine the number that succeeds one two six. Provide your answer in numerical form.,127,dataset1
+Determine the number that succeeds one two eight. Provide your answer in numerical form.,129,dataset1
+Determine the number that succeeds one three zero. Provide your answer in numerical form.,131,dataset1
+Determine the number that succeeds one three two. Provide your answer in numerical form.,133,dataset1
+Determine the number that succeeds one three four. Provide your answer in numerical form.,135,dataset1
+Determine the number that succeeds one three six. Provide your answer in numerical form.,137,dataset1
+Determine the number that succeeds one three eight. Provide your answer in numerical form.,139,dataset1
+Determine the number that succeeds one four zero. Provide your answer in numerical form.,141,dataset1
+Determine the number that succeeds one four two. Provide your answer in numerical form.,143,dataset1
+Determine the number that succeeds one four four. Provide your answer in numerical form.,145,dataset1
+Determine the number that succeeds one four six. Provide your answer in numerical form.,147,dataset1
+Determine the number that succeeds one four eight. Provide your answer in numerical form.,149,dataset1
+Determine the number that succeeds one five zero. Provide your answer in numerical form.,151,dataset1
+Determine the number that succeeds one five two. Provide your answer in numerical form.,153,dataset1
+Determine the number that succeeds one five four. Provide your answer in numerical form.,155,dataset1
+Determine the number that succeeds one five six. Provide your answer in numerical form.,157,dataset1
+Determine the number that succeeds one five eight. Provide your answer in numerical form.,159,dataset1
+Determine the number that succeeds one six zero. Provide your answer in numerical form.,161,dataset1
+Determine the number that succeeds one six two. Provide your answer in numerical form.,163,dataset1
+Determine the number that succeeds one six four. Provide your answer in numerical form.,165,dataset1
+Determine the number that succeeds one six six. Provide your answer in numerical form.,167,dataset1
+Determine the number that succeeds one six eight. Provide your answer in numerical form.,169,dataset1
+Determine the number that succeeds one seven zero. Provide your answer in numerical form.,171,dataset1
+Determine the number that succeeds one seven two. Provide your answer in numerical form.,173,dataset1
+Determine the number that succeeds one seven four. Provide your answer in numerical form.,175,dataset1
+Determine the number that succeeds one seven six. Provide your answer in numerical form.,177,dataset1
+Determine the number that succeeds one seven eight. Provide your answer in numerical form.,179,dataset1
+Determine the number that succeeds one eight zero. Provide your answer in numerical form.,181,dataset1
+Determine the number that succeeds one eight two. Provide your answer in numerical form.,183,dataset1
+Determine the number that succeeds one eight four. Provide your answer in numerical form.,185,dataset1
+Determine the number that succeeds one eight six. Provide your answer in numerical form.,187,dataset1
+Determine the number that succeeds one eight eight. Provide your answer in numerical form.,189,dataset1
+Determine the number that succeeds one nine zero. Provide your answer in numerical form.,191,dataset1
+Determine the number that succeeds one nine two. Provide your answer in numerical form.,193,dataset1
+Determine the number that succeeds one nine four. Provide your answer in numerical form.,195,dataset1
+Determine the number that succeeds one nine six. Provide your answer in numerical form.,197,dataset1
+Determine the number that succeeds one nine eight. Provide your answer in numerical form.,199,dataset1
+Determine the number that succeeds two zero zero. Provide your answer in numerical form.,201,dataset1
+Determine the number that succeeds two zero two. Provide your answer in numerical form.,203,dataset1
+Determine the number that succeeds two zero four. Provide your answer in numerical form.,205,dataset1
+Determine the number that succeeds two zero six. Provide your answer in numerical form.,207,dataset1
+Determine the number that succeeds two zero eight. Provide your answer in numerical form.,209,dataset1
+Determine the number that succeeds two one zero. Provide your answer in numerical form.,211,dataset1
+Determine the number that succeeds two one two. Provide your answer in numerical form.,213,dataset1
+Determine the number that succeeds two one four. Provide your answer in numerical form.,215,dataset1
+Determine the number that succeeds two one six. Provide your answer in numerical form.,217,dataset1
+Determine the number that succeeds two one eight. Provide your answer in numerical form.,219,dataset1
+Determine the number that succeeds two two zero. Provide your answer in numerical form.,221,dataset1
+Determine the number that succeeds two two two. Provide your answer in numerical form.,223,dataset1
+Determine the number that succeeds two two four. Provide your answer in numerical form.,225,dataset1
+Determine the number that succeeds two two six. Provide your answer in numerical form.,227,dataset1
+Determine the number that succeeds two two eight. Provide your answer in numerical form.,229,dataset1
+Determine the number that succeeds two three zero. Provide your answer in numerical form.,231,dataset1
+Determine the number that succeeds two three two. Provide your answer in numerical form.,233,dataset1
+Determine the number that succeeds two three four. Provide your answer in numerical form.,235,dataset1
+Determine the number that succeeds two three six. Provide your answer in numerical form.,237,dataset1
+Determine the number that succeeds two three eight. Provide your answer in numerical form.,239,dataset1
+Determine the number that succeeds two four zero. Provide your answer in numerical form.,241,dataset1
+Determine the number that succeeds two four two. Provide your answer in numerical form.,243,dataset1
+Determine the number that succeeds two four four. Provide your answer in numerical form.,245,dataset1
+Determine the number that succeeds two four six. Provide your answer in numerical form.,247,dataset1
+Determine the number that succeeds two four eight. Provide your answer in numerical form.,249,dataset1
+Determine the number that succeeds two five zero. Provide your answer in numerical form.,251,dataset1
+Determine the number that succeeds two five two. Provide your answer in numerical form.,253,dataset1
+Determine the number that succeeds two five four. Provide your answer in numerical form.,255,dataset1
+Determine the number that succeeds two five six. Provide your answer in numerical form.,257,dataset1
+Determine the number that succeeds two five eight. Provide your answer in numerical form.,259,dataset1
+Determine the number that succeeds two six zero. Provide your answer in numerical form.,261,dataset1
+Determine the number that succeeds two six two. Provide your answer in numerical form.,263,dataset1
+Determine the number that succeeds two six four. Provide your answer in numerical form.,265,dataset1
+Determine the number that succeeds two six six. Provide your answer in numerical form.,267,dataset1
+Determine the number that succeeds two six eight. Provide your answer in numerical form.,269,dataset1
+Determine the number that succeeds two seven zero. Provide your answer in numerical form.,271,dataset1
+Determine the number that succeeds two seven two. Provide your answer in numerical form.,273,dataset1
+Determine the number that succeeds two seven four. Provide your answer in numerical form.,275,dataset1
+Determine the number that succeeds two seven six. Provide your answer in numerical form.,277,dataset1
+Determine the number that succeeds two seven eight. Provide your answer in numerical form.,279,dataset1
+Determine the number that succeeds two eight zero. Provide your answer in numerical form.,281,dataset1
+Determine the number that succeeds two eight two. Provide your answer in numerical form.,283,dataset1
+Determine the number that succeeds two eight four. Provide your answer in numerical form.,285,dataset1
+Determine the number that succeeds two eight six. Provide your answer in numerical form.,287,dataset1
+Determine the number that succeeds two eight eight. Provide your answer in numerical form.,289,dataset1
+Determine the number that succeeds two nine zero. Provide your answer in numerical form.,291,dataset1
+Determine the number that succeeds two nine two. Provide your answer in numerical form.,293,dataset1
+Determine the number that succeeds two nine four. Provide your answer in numerical form.,295,dataset1
+Determine the number that succeeds two nine six. Provide your answer in numerical form.,297,dataset1
+Determine the number that succeeds two nine eight. Provide your answer in numerical form.,299,dataset1
+Determine the number that succeeds three zero zero. Provide your answer in numerical form.,301,dataset1
+Determine the number that succeeds three zero two. Provide your answer in numerical form.,303,dataset1
+Determine the number that succeeds three zero four. Provide your answer in numerical form.,305,dataset1
+Determine the number that succeeds three zero six. Provide your answer in numerical form.,307,dataset1
+Determine the number that succeeds three zero eight. Provide your answer in numerical form.,309,dataset1
+Determine the number that succeeds three one zero. Provide your answer in numerical form.,311,dataset1
+Determine the number that succeeds three one two. Provide your answer in numerical form.,313,dataset1
+Determine the number that succeeds three one four. Provide your answer in numerical form.,315,dataset1
+Determine the number that succeeds three one six. Provide your answer in numerical form.,317,dataset1
+Determine the number that succeeds three one eight. Provide your answer in numerical form.,319,dataset1
+Determine the number that succeeds three two zero. Provide your answer in numerical form.,321,dataset1
+Determine the number that succeeds three two two. Provide your answer in numerical form.,323,dataset1
+Determine the number that succeeds three two four. Provide your answer in numerical form.,325,dataset1
+Determine the number that succeeds three two six. Provide your answer in numerical form.,327,dataset1
+Determine the number that succeeds three two eight. Provide your answer in numerical form.,329,dataset1
+Determine the number that succeeds three three zero. Provide your answer in numerical form.,331,dataset1
+Determine the number that succeeds three three two. Provide your answer in numerical form.,333,dataset1
+Determine the number that succeeds three three four. Provide your answer in numerical form.,335,dataset1
+Determine the number that succeeds three three six. Provide your answer in numerical form.,337,dataset1
+Determine the number that succeeds three three eight. Provide your answer in numerical form.,339,dataset1
+Determine the number that succeeds three four zero. Provide your answer in numerical form.,341,dataset1
+Determine the number that succeeds three four two. Provide your answer in numerical form.,343,dataset1
+Determine the number that succeeds three four four. Provide your answer in numerical form.,345,dataset1
+Determine the number that succeeds three four six. Provide your answer in numerical form.,347,dataset1
+Determine the number that succeeds three four eight. Provide your answer in numerical form.,349,dataset1
+Determine the number that succeeds three five zero. Provide your answer in numerical form.,351,dataset1
+Determine the number that succeeds three five two. Provide your answer in numerical form.,353,dataset1
+Determine the number that succeeds three five four. Provide your answer in numerical form.,355,dataset1
+Determine the number that succeeds three five six. Provide your answer in numerical form.,357,dataset1
+Determine the number that succeeds three five eight. Provide your answer in numerical form.,359,dataset1
+Determine the number that succeeds three six zero. Provide your answer in numerical form.,361,dataset1
+Determine the number that succeeds three six two. Provide your answer in numerical form.,363,dataset1
+Determine the number that succeeds three six four. Provide your answer in numerical form.,365,dataset1
+Determine the number that succeeds three six six. Provide your answer in numerical form.,367,dataset1
+Determine the number that succeeds three six eight. Provide your answer in numerical form.,369,dataset1
+Determine the number that succeeds three seven zero. Provide your answer in numerical form.,371,dataset1
+Determine the number that succeeds three seven two. Provide your answer in numerical form.,373,dataset1
+Determine the number that succeeds three seven four. Provide your answer in numerical form.,375,dataset1
+Determine the number that succeeds three seven six. Provide your answer in numerical form.,377,dataset1
+Determine the number that succeeds three seven eight. Provide your answer in numerical form.,379,dataset1
+Determine the number that succeeds three eight zero. Provide your answer in numerical form.,381,dataset1
+Determine the number that succeeds three eight two. Provide your answer in numerical form.,383,dataset1
+Determine the number that succeeds three eight four. Provide your answer in numerical form.,385,dataset1
+Determine the number that succeeds three eight six. Provide your answer in numerical form.,387,dataset1
+Determine the number that succeeds three eight eight. Provide your answer in numerical form.,389,dataset1
+Determine the number that succeeds three nine zero. Provide your answer in numerical form.,391,dataset1
+Determine the number that succeeds three nine two. Provide your answer in numerical form.,393,dataset1
+Determine the number that succeeds three nine four. Provide your answer in numerical form.,395,dataset1
+Determine the number that succeeds three nine six. Provide your answer in numerical form.,397,dataset1
+Determine the number that succeeds three nine eight. Provide your answer in numerical form.,399,dataset1
+Determine the number that succeeds four zero zero. Provide your answer in numerical form.,401,dataset1
+Determine the number that succeeds four zero two. Provide your answer in numerical form.,403,dataset1
+Determine the number that succeeds four zero four. Provide your answer in numerical form.,405,dataset1
+Determine the number that succeeds four zero six. Provide your answer in numerical form.,407,dataset1
+Determine the number that succeeds four zero eight. Provide your answer in numerical form.,409,dataset1
+Determine the number that succeeds four one zero. Provide your answer in numerical form.,411,dataset1
+Determine the number that succeeds four one two. Provide your answer in numerical form.,413,dataset1
+Determine the number that succeeds four one four. Provide your answer in numerical form.,415,dataset1
+Determine the number that succeeds four one six. Provide your answer in numerical form.,417,dataset1
+Determine the number that succeeds four one eight. Provide your answer in numerical form.,419,dataset1
+Determine the number that succeeds four two zero. Provide your answer in numerical form.,421,dataset1
+Determine the number that succeeds four two two. Provide your answer in numerical form.,423,dataset1
+Determine the number that succeeds four two four. Provide your answer in numerical form.,425,dataset1
+Determine the number that succeeds four two six. Provide your answer in numerical form.,427,dataset1
+Determine the number that succeeds four two eight. Provide your answer in numerical form.,429,dataset1
+Determine the number that succeeds four three zero. Provide your answer in numerical form.,431,dataset1
+Determine the number that succeeds four three two. Provide your answer in numerical form.,433,dataset1
+Determine the number that succeeds four three four. Provide your answer in numerical form.,435,dataset1
+Determine the number that succeeds four three six. Provide your answer in numerical form.,437,dataset1
+Determine the number that succeeds four three eight. Provide your answer in numerical form.,439,dataset1
+Determine the number that succeeds four four zero. Provide your answer in numerical form.,441,dataset1
+Determine the number that succeeds four four two. Provide your answer in numerical form.,443,dataset1
+Determine the number that succeeds four four four. Provide your answer in numerical form.,445,dataset1
+Determine the number that succeeds four four six. Provide your answer in numerical form.,447,dataset1
+Determine the number that succeeds four four eight. Provide your answer in numerical form.,449,dataset1
+Determine the number that succeeds four five zero. Provide your answer in numerical form.,451,dataset1
+Determine the number that succeeds four five two. Provide your answer in numerical form.,453,dataset1
+Determine the number that succeeds four five four. Provide your answer in numerical form.,455,dataset1
+Determine the number that succeeds four five six. Provide your answer in numerical form.,457,dataset1
+Determine the number that succeeds four five eight. Provide your answer in numerical form.,459,dataset1
+Determine the number that succeeds four six zero. Provide your answer in numerical form.,461,dataset1
+Determine the number that succeeds four six two. Provide your answer in numerical form.,463,dataset1
+Determine the number that succeeds four six four. Provide your answer in numerical form.,465,dataset1
+Determine the number that succeeds four six six. Provide your answer in numerical form.,467,dataset1
+Determine the number that succeeds four six eight. Provide your answer in numerical form.,469,dataset1
+Determine the number that succeeds four seven zero. Provide your answer in numerical form.,471,dataset1
+Determine the number that succeeds four seven two. Provide your answer in numerical form.,473,dataset1
+Determine the number that succeeds four seven four. Provide your answer in numerical form.,475,dataset1
+Determine the number that succeeds four seven six. Provide your answer in numerical form.,477,dataset1
+Determine the number that succeeds four seven eight. Provide your answer in numerical form.,479,dataset1
+Determine the number that succeeds four eight zero. Provide your answer in numerical form.,481,dataset1
+Determine the number that succeeds four eight two. Provide your answer in numerical form.,483,dataset1
+Determine the number that succeeds four eight four. Provide your answer in numerical form.,485,dataset1
+Determine the number that succeeds four eight six. Provide your answer in numerical form.,487,dataset1
+Determine the number that succeeds four eight eight. Provide your answer in numerical form.,489,dataset1
+Determine the number that succeeds four nine zero. Provide your answer in numerical form.,491,dataset1
+Determine the number that succeeds four nine two. Provide your answer in numerical form.,493,dataset1
+Determine the number that succeeds four nine four. Provide your answer in numerical form.,495,dataset1
+Determine the number that succeeds four nine six. Provide your answer in numerical form.,497,dataset1
+Determine the number that succeeds four nine eight. Provide your answer in numerical form.,499,dataset1
+Determine the number that succeeds five zero zero. Provide your answer in numerical form.,501,dataset1
+Determine the number that succeeds five zero two. Provide your answer in numerical form.,503,dataset1
+Determine the number that succeeds five zero four. Provide your answer in numerical form.,505,dataset1
+Determine the number that succeeds five zero six. Provide your answer in numerical form.,507,dataset1
+Determine the number that succeeds five zero eight. Provide your answer in numerical form.,509,dataset1
+Determine the number that succeeds five one zero. Provide your answer in numerical form.,511,dataset1
+Determine the number that succeeds one. Provide your answer in words.,two,dataset2
+Determine the number that succeeds three. Provide your answer in words.,four,dataset2
+Determine the number that succeeds five. Provide your answer in words.,six,dataset2
+Determine the number that succeeds seven. Provide your answer in words.,eight,dataset2
+Determine the number that succeeds nine. Provide your answer in words.,one zero,dataset2
+Determine the number that succeeds one one. Provide your answer in words.,one two,dataset2
+Determine the number that succeeds one three. Provide your answer in words.,one four,dataset2
+Determine the number that succeeds one five. Provide your answer in words.,one six,dataset2
+Determine the number that succeeds one seven. Provide your answer in words.,one eight,dataset2
+Determine the number that succeeds one nine. Provide your answer in words.,two zero,dataset2
+Determine the number that succeeds two one. Provide your answer in words.,two two,dataset2
+Determine the number that succeeds two three. Provide your answer in words.,two four,dataset2
+Determine the number that succeeds two five. Provide your answer in words.,two six,dataset2
+Determine the number that succeeds two seven. Provide your answer in words.,two eight,dataset2
+Determine the number that succeeds two nine. Provide your answer in words.,three zero,dataset2
+Determine the number that succeeds three one. Provide your answer in words.,three two,dataset2
+Determine the number that succeeds three three. Provide your answer in words.,three four,dataset2
+Determine the number that succeeds three five. Provide your answer in words.,three six,dataset2
+Determine the number that succeeds three seven. Provide your answer in words.,three eight,dataset2
+Determine the number that succeeds three nine. Provide your answer in words.,four zero,dataset2
+Determine the number that succeeds four one. Provide your answer in words.,four two,dataset2
+Determine the number that succeeds four three. Provide your answer in words.,four four,dataset2
+Determine the number that succeeds four five. Provide your answer in words.,four six,dataset2
+Determine the number that succeeds four seven. Provide your answer in words.,four eight,dataset2
+Determine the number that succeeds four nine. Provide your answer in words.,five zero,dataset2
+Determine the number that succeeds five one. Provide your answer in words.,five two,dataset2
+Determine the number that succeeds five three. Provide your answer in words.,five four,dataset2
+Determine the number that succeeds five five. Provide your answer in words.,five six,dataset2
+Determine the number that succeeds five seven. Provide your answer in words.,five eight,dataset2
+Determine the number that succeeds five nine. Provide your answer in words.,six zero,dataset2
+Determine the number that succeeds six one. Provide your answer in words.,six two,dataset2
+Determine the number that succeeds six three. Provide your answer in words.,six four,dataset2
+Determine the number that succeeds six five. Provide your answer in words.,six six,dataset2
+Determine the number that succeeds six seven. Provide your answer in words.,six eight,dataset2
+Determine the number that succeeds six nine. Provide your answer in words.,seven zero,dataset2
+Determine the number that succeeds seven one. Provide your answer in words.,seven two,dataset2
+Determine the number that succeeds seven three. Provide your answer in words.,seven four,dataset2
+Determine the number that succeeds seven five. Provide your answer in words.,seven six,dataset2
+Determine the number that succeeds seven seven. Provide your answer in words.,seven eight,dataset2
+Determine the number that succeeds seven nine. Provide your answer in words.,eight zero,dataset2
+Determine the number that succeeds eight one. Provide your answer in words.,eight two,dataset2
+Determine the number that succeeds eight three. Provide your answer in words.,eight four,dataset2
+Determine the number that succeeds eight five. Provide your answer in words.,eight six,dataset2
+Determine the number that succeeds eight seven. Provide your answer in words.,eight eight,dataset2
+Determine the number that succeeds eight nine. Provide your answer in words.,nine zero,dataset2
+Determine the number that succeeds nine one. Provide your answer in words.,nine two,dataset2
+Determine the number that succeeds nine three. Provide your answer in words.,nine four,dataset2
+Determine the number that succeeds nine five. Provide your answer in words.,nine six,dataset2
+Determine the number that succeeds nine seven. Provide your answer in words.,nine eight,dataset2
+Determine the number that succeeds nine nine. Provide your answer in words.,one zero zero,dataset2
+Determine the number that succeeds one zero one. Provide your answer in words.,one zero two,dataset2
+Determine the number that succeeds one zero three. Provide your answer in words.,one zero four,dataset2
+Determine the number that succeeds one zero five. Provide your answer in words.,one zero six,dataset2
+Determine the number that succeeds one zero seven. Provide your answer in words.,one zero eight,dataset2
+Determine the number that succeeds one zero nine. Provide your answer in words.,one one zero,dataset2
+Determine the number that succeeds one one one. Provide your answer in words.,one one two,dataset2
+Determine the number that succeeds one one three. Provide your answer in words.,one one four,dataset2
+Determine the number that succeeds one one five. Provide your answer in words.,one one six,dataset2
+Determine the number that succeeds one one seven. Provide your answer in words.,one one eight,dataset2
+Determine the number that succeeds one one nine. Provide your answer in words.,one two zero,dataset2
+Determine the number that succeeds one two one. Provide your answer in words.,one two two,dataset2
+Determine the number that succeeds one two three. Provide your answer in words.,one two four,dataset2
+Determine the number that succeeds one two five. Provide your answer in words.,one two six,dataset2
+Determine the number that succeeds one two seven. Provide your answer in words.,one two eight,dataset2
+Determine the number that succeeds one two nine. Provide your answer in words.,one three zero,dataset2
+Determine the number that succeeds one three one. Provide your answer in words.,one three two,dataset2
+Determine the number that succeeds one three three. Provide your answer in words.,one three four,dataset2
+Determine the number that succeeds one three five. Provide your answer in words.,one three six,dataset2
+Determine the number that succeeds one three seven. Provide your answer in words.,one three eight,dataset2
+Determine the number that succeeds one three nine. Provide your answer in words.,one four zero,dataset2
+Determine the number that succeeds one four one. Provide your answer in words.,one four two,dataset2
+Determine the number that succeeds one four three. Provide your answer in words.,one four four,dataset2
+Determine the number that succeeds one four five. Provide your answer in words.,one four six,dataset2
+Determine the number that succeeds one four seven. Provide your answer in words.,one four eight,dataset2
+Determine the number that succeeds one four nine. Provide your answer in words.,one five zero,dataset2
+Determine the number that succeeds one five one. Provide your answer in words.,one five two,dataset2
+Determine the number that succeeds one five three. Provide your answer in words.,one five four,dataset2
+Determine the number that succeeds one five five. Provide your answer in words.,one five six,dataset2
+Determine the number that succeeds one five seven. Provide your answer in words.,one five eight,dataset2
+Determine the number that succeeds one five nine. Provide your answer in words.,one six zero,dataset2
+Determine the number that succeeds one six one. Provide your answer in words.,one six two,dataset2
+Determine the number that succeeds one six three. Provide your answer in words.,one six four,dataset2
+Determine the number that succeeds one six five. Provide your answer in words.,one six six,dataset2
+Determine the number that succeeds one six seven. Provide your answer in words.,one six eight,dataset2
+Determine the number that succeeds one six nine. Provide your answer in words.,one seven zero,dataset2
+Determine the number that succeeds one seven one. Provide your answer in words.,one seven two,dataset2
+Determine the number that succeeds one seven three. Provide your answer in words.,one seven four,dataset2
+Determine the number that succeeds one seven five. Provide your answer in words.,one seven six,dataset2
+Determine the number that succeeds one seven seven. Provide your answer in words.,one seven eight,dataset2
+Determine the number that succeeds one seven nine. Provide your answer in words.,one eight zero,dataset2
+Determine the number that succeeds one eight one. Provide your answer in words.,one eight two,dataset2
+Determine the number that succeeds one eight three. Provide your answer in words.,one eight four,dataset2
+Determine the number that succeeds one eight five. Provide your answer in words.,one eight six,dataset2
+Determine the number that succeeds one eight seven. Provide your answer in words.,one eight eight,dataset2
+Determine the number that succeeds one eight nine. Provide your answer in words.,one nine zero,dataset2
+Determine the number that succeeds one nine one. Provide your answer in words.,one nine two,dataset2
+Determine the number that succeeds one nine three. Provide your answer in words.,one nine four,dataset2
+Determine the number that succeeds one nine five. Provide your answer in words.,one nine six,dataset2
+Determine the number that succeeds one nine seven. Provide your answer in words.,one nine eight,dataset2
+Determine the number that succeeds one nine nine. Provide your answer in words.,two zero zero,dataset2
+Determine the number that succeeds two zero one. Provide your answer in words.,two zero two,dataset2
+Determine the number that succeeds two zero three. Provide your answer in words.,two zero four,dataset2
+Determine the number that succeeds two zero five. Provide your answer in words.,two zero six,dataset2
+Determine the number that succeeds two zero seven. Provide your answer in words.,two zero eight,dataset2
+Determine the number that succeeds two zero nine. Provide your answer in words.,two one zero,dataset2
+Determine the number that succeeds two one one. Provide your answer in words.,two one two,dataset2
+Determine the number that succeeds two one three. Provide your answer in words.,two one four,dataset2
+Determine the number that succeeds two one five. Provide your answer in words.,two one six,dataset2
+Determine the number that succeeds two one seven. Provide your answer in words.,two one eight,dataset2
+Determine the number that succeeds two one nine. Provide your answer in words.,two two zero,dataset2
+Determine the number that succeeds two two one. Provide your answer in words.,two two two,dataset2
+Determine the number that succeeds two two three. Provide your answer in words.,two two four,dataset2
+Determine the number that succeeds two two five. Provide your answer in words.,two two six,dataset2
+Determine the number that succeeds two two seven. Provide your answer in words.,two two eight,dataset2
+Determine the number that succeeds two two nine. Provide your answer in words.,two three zero,dataset2
+Determine the number that succeeds two three one. Provide your answer in words.,two three two,dataset2
+Determine the number that succeeds two three three. Provide your answer in words.,two three four,dataset2
+Determine the number that succeeds two three five. Provide your answer in words.,two three six,dataset2
+Determine the number that succeeds two three seven. Provide your answer in words.,two three eight,dataset2
+Determine the number that succeeds two three nine. Provide your answer in words.,two four zero,dataset2
+Determine the number that succeeds two four one. Provide your answer in words.,two four two,dataset2
+Determine the number that succeeds two four three. Provide your answer in words.,two four four,dataset2
+Determine the number that succeeds two four five. Provide your answer in words.,two four six,dataset2
+Determine the number that succeeds two four seven. Provide your answer in words.,two four eight,dataset2
+Determine the number that succeeds two four nine. Provide your answer in words.,two five zero,dataset2
+Determine the number that succeeds two five one. Provide your answer in words.,two five two,dataset2
+Determine the number that succeeds two five three. Provide your answer in words.,two five four,dataset2
+Determine the number that succeeds two five five. Provide your answer in words.,two five six,dataset2
+Determine the number that succeeds two five seven. Provide your answer in words.,two five eight,dataset2
+Determine the number that succeeds two five nine. Provide your answer in words.,two six zero,dataset2
+Determine the number that succeeds two six one. Provide your answer in words.,two six two,dataset2
+Determine the number that succeeds two six three. Provide your answer in words.,two six four,dataset2
+Determine the number that succeeds two six five. Provide your answer in words.,two six six,dataset2
+Determine the number that succeeds two six seven. Provide your answer in words.,two six eight,dataset2
+Determine the number that succeeds two six nine. Provide your answer in words.,two seven zero,dataset2
+Determine the number that succeeds two seven one. Provide your answer in words.,two seven two,dataset2
+Determine the number that succeeds two seven three. Provide your answer in words.,two seven four,dataset2
+Determine the number that succeeds two seven five. Provide your answer in words.,two seven six,dataset2
+Determine the number that succeeds two seven seven. Provide your answer in words.,two seven eight,dataset2
+Determine the number that succeeds two seven nine. Provide your answer in words.,two eight zero,dataset2
+Determine the number that succeeds two eight one. Provide your answer in words.,two eight two,dataset2
+Determine the number that succeeds two eight three. Provide your answer in words.,two eight four,dataset2
+Determine the number that succeeds two eight five. Provide your answer in words.,two eight six,dataset2
+Determine the number that succeeds two eight seven. Provide your answer in words.,two eight eight,dataset2
+Determine the number that succeeds two eight nine. Provide your answer in words.,two nine zero,dataset2
+Determine the number that succeeds two nine one. Provide your answer in words.,two nine two,dataset2
+Determine the number that succeeds two nine three. Provide your answer in words.,two nine four,dataset2
+Determine the number that succeeds two nine five. Provide your answer in words.,two nine six,dataset2
+Determine the number that succeeds two nine seven. Provide your answer in words.,two nine eight,dataset2
+Determine the number that succeeds two nine nine. Provide your answer in words.,three zero zero,dataset2
+Determine the number that succeeds three zero one. Provide your answer in words.,three zero two,dataset2
+Determine the number that succeeds three zero three. Provide your answer in words.,three zero four,dataset2
+Determine the number that succeeds three zero five. Provide your answer in words.,three zero six,dataset2
+Determine the number that succeeds three zero seven. Provide your answer in words.,three zero eight,dataset2
+Determine the number that succeeds three zero nine. Provide your answer in words.,three one zero,dataset2
+Determine the number that succeeds three one one. Provide your answer in words.,three one two,dataset2
+Determine the number that succeeds three one three. Provide your answer in words.,three one four,dataset2
+Determine the number that succeeds three one five. Provide your answer in words.,three one six,dataset2
+Determine the number that succeeds three one seven. Provide your answer in words.,three one eight,dataset2
+Determine the number that succeeds three one nine. Provide your answer in words.,three two zero,dataset2
+Determine the number that succeeds three two one. Provide your answer in words.,three two two,dataset2
+Determine the number that succeeds three two three. Provide your answer in words.,three two four,dataset2
+Determine the number that succeeds three two five. Provide your answer in words.,three two six,dataset2
+Determine the number that succeeds three two seven. Provide your answer in words.,three two eight,dataset2
+Determine the number that succeeds three two nine. Provide your answer in words.,three three zero,dataset2
+Determine the number that succeeds three three one. Provide your answer in words.,three three two,dataset2
+Determine the number that succeeds three three three. Provide your answer in words.,three three four,dataset2
+Determine the number that succeeds three three five. Provide your answer in words.,three three six,dataset2
+Determine the number that succeeds three three seven. Provide your answer in words.,three three eight,dataset2
+Determine the number that succeeds three three nine. Provide your answer in words.,three four zero,dataset2
+Determine the number that succeeds three four one. Provide your answer in words.,three four two,dataset2
+Determine the number that succeeds three four three. Provide your answer in words.,three four four,dataset2
+Determine the number that succeeds three four five. Provide your answer in words.,three four six,dataset2
+Determine the number that succeeds three four seven. Provide your answer in words.,three four eight,dataset2
+Determine the number that succeeds three four nine. Provide your answer in words.,three five zero,dataset2
+Determine the number that succeeds three five one. Provide your answer in words.,three five two,dataset2
+Determine the number that succeeds three five three. Provide your answer in words.,three five four,dataset2
+Determine the number that succeeds three five five. Provide your answer in words.,three five six,dataset2
+Determine the number that succeeds three five seven. Provide your answer in words.,three five eight,dataset2
+Determine the number that succeeds three five nine. Provide your answer in words.,three six zero,dataset2
+Determine the number that succeeds three six one. Provide your answer in words.,three six two,dataset2
+Determine the number that succeeds three six three. Provide your answer in words.,three six four,dataset2
+Determine the number that succeeds three six five. Provide your answer in words.,three six six,dataset2
+Determine the number that succeeds three six seven. Provide your answer in words.,three six eight,dataset2
+Determine the number that succeeds three six nine. Provide your answer in words.,three seven zero,dataset2
+Determine the number that succeeds three seven one. Provide your answer in words.,three seven two,dataset2
+Determine the number that succeeds three seven three. Provide your answer in words.,three seven four,dataset2
+Determine the number that succeeds three seven five. Provide your answer in words.,three seven six,dataset2
+Determine the number that succeeds three seven seven. Provide your answer in words.,three seven eight,dataset2
+Determine the number that succeeds three seven nine. Provide your answer in words.,three eight zero,dataset2
+Determine the number that succeeds three eight one. Provide your answer in words.,three eight two,dataset2
+Determine the number that succeeds three eight three. Provide your answer in words.,three eight four,dataset2
+Determine the number that succeeds three eight five. Provide your answer in words.,three eight six,dataset2
+Determine the number that succeeds three eight seven. Provide your answer in words.,three eight eight,dataset2
+Determine the number that succeeds three eight nine. Provide your answer in words.,three nine zero,dataset2
+Determine the number that succeeds three nine one. Provide your answer in words.,three nine two,dataset2
+Determine the number that succeeds three nine three. Provide your answer in words.,three nine four,dataset2
+Determine the number that succeeds three nine five. Provide your answer in words.,three nine six,dataset2
+Determine the number that succeeds three nine seven. Provide your answer in words.,three nine eight,dataset2
+Determine the number that succeeds three nine nine. Provide your answer in words.,four zero zero,dataset2
+Determine the number that succeeds four zero one. Provide your answer in words.,four zero two,dataset2
+Determine the number that succeeds four zero three. Provide your answer in words.,four zero four,dataset2
+Determine the number that succeeds four zero five. Provide your answer in words.,four zero six,dataset2
+Determine the number that succeeds four zero seven. Provide your answer in words.,four zero eight,dataset2
+Determine the number that succeeds four zero nine. Provide your answer in words.,four one zero,dataset2
+Determine the number that succeeds four one one. Provide your answer in words.,four one two,dataset2
+Determine the number that succeeds four one three. Provide your answer in words.,four one four,dataset2
+Determine the number that succeeds four one five. Provide your answer in words.,four one six,dataset2
+Determine the number that succeeds four one seven. Provide your answer in words.,four one eight,dataset2
+Determine the number that succeeds four one nine. Provide your answer in words.,four two zero,dataset2
+Determine the number that succeeds four two one. Provide your answer in words.,four two two,dataset2
+Determine the number that succeeds four two three. Provide your answer in words.,four two four,dataset2
+Determine the number that succeeds four two five. Provide your answer in words.,four two six,dataset2
+Determine the number that succeeds four two seven. Provide your answer in words.,four two eight,dataset2
+Determine the number that succeeds four two nine. Provide your answer in words.,four three zero,dataset2
+Determine the number that succeeds four three one. Provide your answer in words.,four three two,dataset2
+Determine the number that succeeds four three three. Provide your answer in words.,four three four,dataset2
+Determine the number that succeeds four three five. Provide your answer in words.,four three six,dataset2
+Determine the number that succeeds four three seven. Provide your answer in words.,four three eight,dataset2
+Determine the number that succeeds four three nine. Provide your answer in words.,four four zero,dataset2
+Determine the number that succeeds four four one. Provide your answer in words.,four four two,dataset2
+Determine the number that succeeds four four three. Provide your answer in words.,four four four,dataset2
+Determine the number that succeeds four four five. Provide your answer in words.,four four six,dataset2
+Determine the number that succeeds four four seven. Provide your answer in words.,four four eight,dataset2
+Determine the number that succeeds four four nine. Provide your answer in words.,four five zero,dataset2
+Determine the number that succeeds four five one. Provide your answer in words.,four five two,dataset2
+Determine the number that succeeds four five three. Provide your answer in words.,four five four,dataset2
+Determine the number that succeeds four five five. Provide your answer in words.,four five six,dataset2
+Determine the number that succeeds four five seven. Provide your answer in words.,four five eight,dataset2
+Determine the number that succeeds four five nine. Provide your answer in words.,four six zero,dataset2
+Determine the number that succeeds four six one. Provide your answer in words.,four six two,dataset2
+Determine the number that succeeds four six three. Provide your answer in words.,four six four,dataset2
+Determine the number that succeeds four six five. Provide your answer in words.,four six six,dataset2
+Determine the number that succeeds four six seven. Provide your answer in words.,four six eight,dataset2
+Determine the number that succeeds four six nine. Provide your answer in words.,four seven zero,dataset2
+Determine the number that succeeds four seven one. Provide your answer in words.,four seven two,dataset2
+Determine the number that succeeds four seven three. Provide your answer in words.,four seven four,dataset2
+Determine the number that succeeds four seven five. Provide your answer in words.,four seven six,dataset2
+Determine the number that succeeds four seven seven. Provide your answer in words.,four seven eight,dataset2
+Determine the number that succeeds four seven nine. Provide your answer in words.,four eight zero,dataset2
+Determine the number that succeeds four eight one. Provide your answer in words.,four eight two,dataset2
+Determine the number that succeeds four eight three. Provide your answer in words.,four eight four,dataset2
+Determine the number that succeeds four eight five. Provide your answer in words.,four eight six,dataset2
+Determine the number that succeeds four eight seven. Provide your answer in words.,four eight eight,dataset2
+Determine the number that succeeds four eight nine. Provide your answer in words.,four nine zero,dataset2
+Determine the number that succeeds four nine one. Provide your answer in words.,four nine two,dataset2
+Determine the number that succeeds four nine three. Provide your answer in words.,four nine four,dataset2
+Determine the number that succeeds four nine five. Provide your answer in words.,four nine six,dataset2
+Determine the number that succeeds four nine seven. Provide your answer in words.,four nine eight,dataset2
+Determine the number that succeeds four nine nine. Provide your answer in words.,five zero zero,dataset2
+Determine the number that succeeds five zero one. Provide your answer in words.,five zero two,dataset2
+Determine the number that succeeds five zero three. Provide your answer in words.,five zero four,dataset2
+Determine the number that succeeds five zero five. Provide your answer in words.,five zero six,dataset2
+Determine the number that succeeds five zero seven. Provide your answer in words.,five zero eight,dataset2
+Determine the number that succeeds five zero nine. Provide your answer in words.,five one zero,dataset2
+Determine the number that succeeds five one one. Provide your answer in words.,five one two,dataset2
+Determine the length of 'friend'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'area'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'part'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'century'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'method'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'morning'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'moment'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'training'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'husband'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'student'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'technique'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'industry'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'words'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'earth'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'knee'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'site'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'inch'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'attempt'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'language'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'allotment'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'kitchen'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'victory'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'procedure'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'corporation'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'england'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'oxygen'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'district'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'month'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'parent'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'communism'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'yard'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'police'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'throat'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'sunday'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'remark'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'chlorine'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'property'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'presence'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'lung'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'services'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'intensity'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'worker'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'europe'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'valley'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'operator'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'folklore'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'gram'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'milligram'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'percentage'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'institution'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'saturday'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'discussion'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'policy'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'customer'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'composer'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'desk'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'extent'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'dollar'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'distribution'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'while'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'fraction'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'tsunami'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'bedroom'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'porch'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'values'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'ratio'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'politics'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'curve'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'component'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'conversation'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'oxidation'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'doctrine'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'integration'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'status'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'economy'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'curiosity'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'conviction'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'southerner'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'funds'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'requirement'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'judgment'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'belief'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'camera'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'beer'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'comedy'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'spectrum'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'particle'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'year'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'tumor'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'advice'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'friday'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'symbol'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'stockholder'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'scene'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'iodine'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'competition'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'include'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'obtain'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'achieve'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'find'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'enter'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'describe'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'prevent'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'tend'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'recommend'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'sing'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'enable'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'disappear'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'flee'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'suppose'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'operate'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'listen'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'constitute'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'solve'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'apply'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'predict'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'participate'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'consider'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'perceive'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'strengthen'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'compete'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'involve'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'accuse'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'detect'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'perform'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'help'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'refer'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'avoid'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'proceed'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'weigh'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'happen'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'justify'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'total'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'deny'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'consult'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'murmur'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'earn'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'resent'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'qualify'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'transform'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'secede'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'assume'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'refuse'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'satisfy'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'encourage'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'persuade'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'expect'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'hear'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'compare'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'equip'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'examine'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'restrain'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'restore'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'advise'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'threaten'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'reside'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'punish'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'overcome'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'subtract'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'enjoy'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'forget'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'understand'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'inspire'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'broaden'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'coincide'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'arise'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'admire'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'baptize'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'halt'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'rebuild'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'follow'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'tighten'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'reappear'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'exclaim'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'join'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'excite'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'behold'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'donate'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'expand'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'populate'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'heed'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'adapt'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'straighten'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'intersect'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'violate'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'flatten'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'motivate'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'shine'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'memorize'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'yell'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'precede'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'replenish'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'other'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'some'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'necessary'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'difficult'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'jewish'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'loud'. Provide your answer in numerical form.,4,dataset3
+Determine the length of 'greater'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'strange'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'happy'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'tattered'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'smaller'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'considerable'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'sufficient'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'serious'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'usual'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'hypothalamic'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'detailed'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'obvious'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'interested'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'unusual'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'dangerous'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'suburban'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'practical'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'intense'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'eager'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'industrial'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'human'. Provide your answer in numerical form.,5,dataset3
+Determine the length of 'international'. Provide your answer in numerical form.,13,dataset3
+Determine the length of 'academic'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'powerful'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'artistic'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'excellent'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'sexual'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'impressive'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'useful'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'precise'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'wooden'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'uneasy'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'theological'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'bacterial'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'diagonalizable'. Provide your answer in numerical form.,14,dataset3
+Determine the length of 'experimental'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'popular'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'prepared'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'visible'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'distinct'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'democratic'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'paramagnetic'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'remarkable'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'utopian'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'colored'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'skeletal'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'common'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'continued'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'nilpotent'. Provide your answer in numerical form.,9,dataset3
+Determine the length of 'scientific'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'profound'. Provide your answer in numerical form.,8,dataset3
+Determine the length of 'competitive'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'unstructured'. Provide your answer in numerical form.,12,dataset3
+Determine the length of 'surprising'. Provide your answer in numerical form.,10,dataset3
+Determine the length of 'complicated'. Provide your answer in numerical form.,11,dataset3
+Determine the length of 'porous'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'skilled'. Provide your answer in numerical form.,7,dataset3
+Determine the length of 'insane'. Provide your answer in numerical form.,6,dataset3
+Determine the length of 'problem'. Provide your answer in words.,seven,dataset4
+Determine the length of 'wife'. Provide your answer in words.,four,dataset4
+Determine the length of 'week'. Provide your answer in words.,four,dataset4
+Determine the length of 'government'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'road'. Provide your answer in words.,four,dataset4
+Determine the length of 'data'. Provide your answer in words.,four,dataset4
+Determine the length of 'thing'. Provide your answer in words.,five,dataset4
+Determine the length of 'wage'. Provide your answer in words.,four,dataset4
+Determine the length of 'town'. Provide your answer in words.,four,dataset4
+Determine the length of 'army'. Provide your answer in words.,four,dataset4
+Determine the length of 'employee'. Provide your answer in words.,eight,dataset4
+Determine the length of 'river'. Provide your answer in words.,five,dataset4
+Determine the length of 'dictionary'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'music'. Provide your answer in words.,five,dataset4
+Determine the length of 'afternoon'. Provide your answer in words.,nine,dataset4
+Determine the length of 'emotion'. Provide your answer in words.,seven,dataset4
+Determine the length of 'theory'. Provide your answer in words.,six,dataset4
+Determine the length of 'equipment'. Provide your answer in words.,nine,dataset4
+Determine the length of 'income'. Provide your answer in words.,six,dataset4
+Determine the length of 'artist'. Provide your answer in words.,six,dataset4
+Determine the length of 'lack'. Provide your answer in words.,four,dataset4
+Determine the length of 'onset'. Provide your answer in words.,five,dataset4
+Determine the length of 'teacher'. Provide your answer in words.,seven,dataset4
+Determine the length of 'circumstance'. Provide your answer in words.,one two,dataset4
+Determine the length of 'skill'. Provide your answer in words.,five,dataset4
+Determine the length of 'hotel'. Provide your answer in words.,five,dataset4
+Determine the length of 'concept'. Provide your answer in words.,seven,dataset4
+Determine the length of 'south'. Provide your answer in words.,five,dataset4
+Determine the length of 'bullet'. Provide your answer in words.,six,dataset4
+Determine the length of 'business'. Provide your answer in words.,eight,dataset4
+Determine the length of 'serum'. Provide your answer in words.,five,dataset4
+Determine the length of 'goal'. Provide your answer in words.,four,dataset4
+Determine the length of 'colonel'. Provide your answer in words.,seven,dataset4
+Determine the length of 'payment'. Provide your answer in words.,seven,dataset4
+Determine the length of 'apartment'. Provide your answer in words.,nine,dataset4
+Determine the length of 'congregation'. Provide your answer in words.,one two,dataset4
+Determine the length of 'petitioner'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'probability'. Provide your answer in words.,one one,dataset4
+Determine the length of 'farmer'. Provide your answer in words.,six,dataset4
+Determine the length of 'organization'. Provide your answer in words.,one two,dataset4
+Determine the length of 'citizen'. Provide your answer in words.,seven,dataset4
+Determine the length of 'monday'. Provide your answer in words.,six,dataset4
+Determine the length of 'tradition'. Provide your answer in words.,nine,dataset4
+Determine the length of 'performance'. Provide your answer in words.,one one,dataset4
+Determine the length of 'species'. Provide your answer in words.,seven,dataset4
+Determine the length of 'lady'. Provide your answer in words.,four,dataset4
+Determine the length of 'freedom'. Provide your answer in words.,seven,dataset4
+Determine the length of 'pond'. Provide your answer in words.,four,dataset4
+Determine the length of 'june'. Provide your answer in words.,four,dataset4
+Determine the length of 'movie'. Provide your answer in words.,five,dataset4
+Determine the length of 'disease'. Provide your answer in words.,seven,dataset4
+Determine the length of 'chicago'. Provide your answer in words.,seven,dataset4
+Determine the length of 'cattle'. Provide your answer in words.,six,dataset4
+Determine the length of 'decade'. Provide your answer in words.,six,dataset4
+Determine the length of 'congress'. Provide your answer in words.,eight,dataset4
+Determine the length of 'daughter'. Provide your answer in words.,eight,dataset4
+Determine the length of 'protein'. Provide your answer in words.,seven,dataset4
+Determine the length of 'leader'. Provide your answer in words.,six,dataset4
+Determine the length of 'illusion'. Provide your answer in words.,eight,dataset4
+Determine the length of 'independence'. Provide your answer in words.,one two,dataset4
+Determine the length of 'november'. Provide your answer in words.,eight,dataset4
+Determine the length of 'april'. Provide your answer in words.,five,dataset4
+Determine the length of 'pleasure'. Provide your answer in words.,eight,dataset4
+Determine the length of 'health'. Provide your answer in words.,six,dataset4
+Determine the length of 'battery'. Provide your answer in words.,seven,dataset4
+Determine the length of 'environment'. Provide your answer in words.,one one,dataset4
+Determine the length of 'expert'. Provide your answer in words.,six,dataset4
+Determine the length of 'consciousness'. Provide your answer in words.,one three,dataset4
+Determine the length of 'fist'. Provide your answer in words.,four,dataset4
+Determine the length of 'soul'. Provide your answer in words.,four,dataset4
+Determine the length of 'salesman'. Provide your answer in words.,eight,dataset4
+Determine the length of 'anxiety'. Provide your answer in words.,seven,dataset4
+Determine the length of 'sister'. Provide your answer in words.,six,dataset4
+Determine the length of 'historian'. Provide your answer in words.,nine,dataset4
+Determine the length of 'loan'. Provide your answer in words.,four,dataset4
+Determine the length of 'professor'. Provide your answer in words.,nine,dataset4
+Determine the length of 'atom'. Provide your answer in words.,four,dataset4
+Determine the length of 'dallas'. Provide your answer in words.,six,dataset4
+Determine the length of 'sewage'. Provide your answer in words.,six,dataset4
+Determine the length of 'measurement'. Provide your answer in words.,one one,dataset4
+Determine the length of 'pansy'. Provide your answer in words.,five,dataset4
+Determine the length of 'hero'. Provide your answer in words.,four,dataset4
+Determine the length of 'possibility'. Provide your answer in words.,one one,dataset4
+Determine the length of 'factory'. Provide your answer in words.,seven,dataset4
+Determine the length of 'consequence'. Provide your answer in words.,one one,dataset4
+Determine the length of 'september'. Provide your answer in words.,nine,dataset4
+Determine the length of 'flux'. Provide your answer in words.,four,dataset4
+Determine the length of 'hypothalamus'. Provide your answer in words.,one two,dataset4
+Determine the length of 'tangent'. Provide your answer in words.,seven,dataset4
+Determine the length of 'anaconda'. Provide your answer in words.,eight,dataset4
+Determine the length of 'mission'. Provide your answer in words.,seven,dataset4
+Determine the length of 'emphasis'. Provide your answer in words.,eight,dataset4
+Determine the length of 'atmosphere'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'security'. Provide your answer in words.,eight,dataset4
+Determine the length of 'pistol'. Provide your answer in words.,six,dataset4
+Determine the length of 'editor'. Provide your answer in words.,six,dataset4
+Determine the length of 'bring'. Provide your answer in words.,five,dataset4
+Determine the length of 'write'. Provide your answer in words.,five,dataset4
+Determine the length of 'spend'. Provide your answer in words.,five,dataset4
+Determine the length of 'teach'. Provide your answer in words.,five,dataset4
+Determine the length of 'send'. Provide your answer in words.,four,dataset4
+Determine the length of 'imagine'. Provide your answer in words.,seven,dataset4
+Determine the length of 'insist'. Provide your answer in words.,six,dataset4
+Determine the length of 'prove'. Provide your answer in words.,five,dataset4
+Determine the length of 'establish'. Provide your answer in words.,nine,dataset4
+Determine the length of 'conduct'. Provide your answer in words.,seven,dataset4
+Determine the length of 'destroy'. Provide your answer in words.,seven,dataset4
+Determine the length of 'represent'. Provide your answer in words.,nine,dataset4
+Determine the length of 'believe'. Provide your answer in words.,seven,dataset4
+Determine the length of 'adopt'. Provide your answer in words.,five,dataset4
+Determine the length of 'remain'. Provide your answer in words.,six,dataset4
+Determine the length of 'authorize'. Provide your answer in words.,nine,dataset4
+Determine the length of 'promote'. Provide your answer in words.,seven,dataset4
+Determine the length of 'complain'. Provide your answer in words.,eight,dataset4
+Determine the length of 'deserve'. Provide your answer in words.,seven,dataset4
+Determine the length of 'succeed'. Provide your answer in words.,seven,dataset4
+Determine the length of 'differ'. Provide your answer in words.,six,dataset4
+Determine the length of 'approve'. Provide your answer in words.,seven,dataset4
+Determine the length of 'have'. Provide your answer in words.,four,dataset4
+Determine the length of 'resemble'. Provide your answer in words.,eight,dataset4
+Determine the length of 'entertain'. Provide your answer in words.,nine,dataset4
+Determine the length of 'remind'. Provide your answer in words.,six,dataset4
+Determine the length of 'pray'. Provide your answer in words.,four,dataset4
+Determine the length of 'exceed'. Provide your answer in words.,six,dataset4
+Determine the length of 'suggest'. Provide your answer in words.,seven,dataset4
+Determine the length of 'shout'. Provide your answer in words.,five,dataset4
+Determine the length of 'grin'. Provide your answer in words.,four,dataset4
+Determine the length of 'entitle'. Provide your answer in words.,seven,dataset4
+Determine the length of 'wipe'. Provide your answer in words.,four,dataset4
+Determine the length of 'investigate'. Provide your answer in words.,one one,dataset4
+Determine the length of 'argue'. Provide your answer in words.,five,dataset4
+Determine the length of 'thank'. Provide your answer in words.,five,dataset4
+Determine the length of 'borrow'. Provide your answer in words.,six,dataset4
+Determine the length of 'grasp'. Provide your answer in words.,five,dataset4
+Determine the length of 'lower'. Provide your answer in words.,five,dataset4
+Determine the length of 'assign'. Provide your answer in words.,six,dataset4
+Determine the length of 'forbid'. Provide your answer in words.,six,dataset4
+Determine the length of 'invent'. Provide your answer in words.,six,dataset4
+Determine the length of 'obey'. Provide your answer in words.,four,dataset4
+Determine the length of 'compose'. Provide your answer in words.,seven,dataset4
+Determine the length of 'deem'. Provide your answer in words.,four,dataset4
+Determine the length of 'contribute'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'proclaim'. Provide your answer in words.,eight,dataset4
+Determine the length of 'inspect'. Provide your answer in words.,seven,dataset4
+Determine the length of 'descend'. Provide your answer in words.,seven,dataset4
+Determine the length of 'appreciate'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'injure'. Provide your answer in words.,six,dataset4
+Determine the length of 'postpone'. Provide your answer in words.,eight,dataset4
+Determine the length of 'interfere'. Provide your answer in words.,nine,dataset4
+Determine the length of 'incur'. Provide your answer in words.,five,dataset4
+Determine the length of 'choose'. Provide your answer in words.,six,dataset4
+Determine the length of 'denote'. Provide your answer in words.,six,dataset4
+Determine the length of 'introduce'. Provide your answer in words.,nine,dataset4
+Determine the length of 'confess'. Provide your answer in words.,seven,dataset4
+Determine the length of 'perpetuate'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'depend'. Provide your answer in words.,six,dataset4
+Determine the length of 'dwindle'. Provide your answer in words.,seven,dataset4
+Determine the length of 'hesitate'. Provide your answer in words.,eight,dataset4
+Determine the length of 'comply'. Provide your answer in words.,six,dataset4
+Determine the length of 'amend'. Provide your answer in words.,five,dataset4
+Determine the length of 'explain'. Provide your answer in words.,seven,dataset4
+Determine the length of 'abolish'. Provide your answer in words.,seven,dataset4
+Determine the length of 'preach'. Provide your answer in words.,six,dataset4
+Determine the length of 'inflict'. Provide your answer in words.,seven,dataset4
+Determine the length of 'dilute'. Provide your answer in words.,six,dataset4
+Determine the length of 'assure'. Provide your answer in words.,six,dataset4
+Determine the length of 'characterize'. Provide your answer in words.,one two,dataset4
+Determine the length of 'survive'. Provide your answer in words.,seven,dataset4
+Determine the length of 'chuckle'. Provide your answer in words.,seven,dataset4
+Determine the length of 'disturb'. Provide your answer in words.,seven,dataset4
+Determine the length of 'bawl'. Provide your answer in words.,four,dataset4
+Determine the length of 'accompany'. Provide your answer in words.,nine,dataset4
+Determine the length of 'appoint'. Provide your answer in words.,seven,dataset4
+Determine the length of 'contemplate'. Provide your answer in words.,one one,dataset4
+Determine the length of 'lurk'. Provide your answer in words.,four,dataset4
+Determine the length of 'replace'. Provide your answer in words.,seven,dataset4
+Determine the length of 'impart'. Provide your answer in words.,six,dataset4
+Determine the length of 'sponsor'. Provide your answer in words.,seven,dataset4
+Determine the length of 'flatter'. Provide your answer in words.,seven,dataset4
+Determine the length of 'vary'. Provide your answer in words.,four,dataset4
+Determine the length of 'enforce'. Provide your answer in words.,seven,dataset4
+Determine the length of 'ignore'. Provide your answer in words.,six,dataset4
+Determine the length of 'writhe'. Provide your answer in words.,six,dataset4
+Determine the length of 'haul'. Provide your answer in words.,four,dataset4
+Determine the length of 'enroll'. Provide your answer in words.,six,dataset4
+Determine the length of 'disclose'. Provide your answer in words.,eight,dataset4
+Determine the length of 'engender'. Provide your answer in words.,eight,dataset4
+Determine the length of 'allocate'. Provide your answer in words.,eight,dataset4
+Determine the length of 'organize'. Provide your answer in words.,eight,dataset4
+Determine the length of 'strive'. Provide your answer in words.,six,dataset4
+Determine the length of 'revise'. Provide your answer in words.,six,dataset4
+Determine the length of 'reaffirm'. Provide your answer in words.,eight,dataset4
+Determine the length of 'many'. Provide your answer in words.,four,dataset4
+Determine the length of 'same'. Provide your answer in words.,four,dataset4
+Determine the length of 'economic'. Provide your answer in words.,eight,dataset4
+Determine the length of 'strong'. Provide your answer in words.,six,dataset4
+Determine the length of 'another'. Provide your answer in words.,seven,dataset4
+Determine the length of 'vocational'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'successful'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'aware'. Provide your answer in words.,five,dataset4
+Determine the length of 'recent'. Provide your answer in words.,six,dataset4
+Determine the length of 'known'. Provide your answer in words.,five,dataset4
+Determine the length of 'sudden'. Provide your answer in words.,six,dataset4
+Determine the length of 'southern'. Provide your answer in words.,eight,dataset4
+Determine the length of 'increased'. Provide your answer in words.,nine,dataset4
+Determine the length of 'medical'. Provide your answer in words.,seven,dataset4
+Determine the length of 'interesting'. Provide your answer in words.,one one,dataset4
+Determine the length of 'literary'. Provide your answer in words.,eight,dataset4
+Determine the length of 'typical'. Provide your answer in words.,seven,dataset4
+Determine the length of 'soviet'. Provide your answer in words.,six,dataset4
+Determine the length of 'minimal'. Provide your answer in words.,seven,dataset4
+Determine the length of 'huge'. Provide your answer in words.,four,dataset4
+Determine the length of 'willing'. Provide your answer in words.,seven,dataset4
+Determine the length of 'occasional'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'needed'. Provide your answer in words.,six,dataset4
+Determine the length of 'located'. Provide your answer in words.,seven,dataset4
+Determine the length of 'related'. Provide your answer in words.,seven,dataset4
+Determine the length of 'foreign'. Provide your answer in words.,seven,dataset4
+Determine the length of 'pursuant'. Provide your answer in words.,eight,dataset4
+Determine the length of 'nonspecific'. Provide your answer in words.,one one,dataset4
+Determine the length of 'silent'. Provide your answer in words.,six,dataset4
+Determine the length of 'numerous'. Provide your answer in words.,eight,dataset4
+Determine the length of 'pure'. Provide your answer in words.,four,dataset4
+Determine the length of 'enormous'. Provide your answer in words.,eight,dataset4
+Determine the length of 'administrative'. Provide your answer in words.,one four,dataset4
+Determine the length of 'electrical'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'convenient'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'chief'. Provide your answer in words.,five,dataset4
+Determine the length of 'reasonable'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'surprised'. Provide your answer in words.,nine,dataset4
+Determine the length of 'northern'. Provide your answer in words.,eight,dataset4
+Determine the length of 'aqueous'. Provide your answer in words.,seven,dataset4
+Determine the length of 'proud'. Provide your answer in words.,five,dataset4
+Determine the length of 'regional'. Provide your answer in words.,eight,dataset4
+Determine the length of 'physiological'. Provide your answer in words.,one three,dataset4
+Determine the length of 'clinical'. Provide your answer in words.,eight,dataset4
+Determine the length of 'satisfactory'. Provide your answer in words.,one two,dataset4
+Determine the length of 'creative'. Provide your answer in words.,eight,dataset4
+Determine the length of 'changing'. Provide your answer in words.,eight,dataset4
+Determine the length of 'respiratory'. Provide your answer in words.,one one,dataset4
+Determine the length of 'definite'. Provide your answer in words.,eight,dataset4
+Determine the length of 'quiet'. Provide your answer in words.,five,dataset4
+Determine the length of 'sympathetic'. Provide your answer in words.,one one,dataset4
+Determine the length of 'expensive'. Provide your answer in words.,nine,dataset4
+Determine the length of 'autonomic'. Provide your answer in words.,nine,dataset4
+Determine the length of 'extraordinary'. Provide your answer in words.,one three,dataset4
+Determine the length of 'concerned'. Provide your answer in words.,nine,dataset4
+Determine the length of 'structured'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'unadjusted'. Provide your answer in words.,one zero,dataset4
+Determine the length of 'crowded'. Provide your answer in words.,seven,dataset4
+Determine the length of 'covered'. Provide your answer in words.,seven,dataset4
+Determine the length of 'municipal'. Provide your answer in words.,nine,dataset4
+Determine the length of 'entitled'. Provide your answer in words.,eight,dataset4
+Determine the length of 'retired'. Provide your answer in words.,seven,dataset4
+Determine the length of 'brilliant'. Provide your answer in words.,nine,dataset4
+Determine the length of 'biological'. Provide your answer in words.,one zero,dataset4

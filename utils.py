@@ -14,7 +14,7 @@ def show_log(output_dir, subset="eval_loss"):
     return df_log
 
 
-def read_result(output_dir_format, dataset_names, key_column, prefix="eval_loss_"):
+def read_result(output_dir_format, dataset_names, key_column, init_dir, prefix="eval_loss_"):
     df_results = []
     for dataset_name in dataset_names:
         output_dir = output_dir_format.format(dataset_name)
@@ -32,9 +32,18 @@ def read_result(output_dir_format, dataset_names, key_column, prefix="eval_loss_
     df_results = df_results.sort_index(axis=1)
     dict_results = {key: df_results[df_results[key_column] == key].drop(columns=[key_column]) for key in df_results[key_column].unique()}
     
+    with open(os.path.join(init_dir, f"eval_results.json"), "r") as f:
+        init_results = json.load(f)
+    series_init = pd.Series(init_results)
+    series_init = series_init.rename(index=lambda index: index.replace(prefix, ""))
+    
     dict_result = list(dict_results.values())[0]
-    dict_result.loc[:, "dataset0"] = 0
-    dict_results[0] = dict_result
+    series_init = series_init.loc[dict_result.columns]
+    df_init = pd.DataFrame.from_dict({index: series_init for index in dict_result.index}, orient="index")
+    df_init.index.name = dict_result.index.name
+    
+    dict_results[0] = df_init    
+    dict_results = {key: df_result-df_init for key, df_result in dict_results.items()}
         
     df_results = []
     for key, df_result in dict_results.items():
@@ -70,11 +79,12 @@ def read_result_reverse(output_dir_format, dataset_names, key_column, init_dir, 
     series_init = series_init.rename(index=lambda index: index.replace(prefix, ""))
     
     dict_result = list(dict_results.values())[0]
+    series_init = series_init.loc[dict_result.index]
     df_init = pd.DataFrame({column: series_init for column in dict_result.columns})
     df_init.index.name = dict_result.index.name
     
     dict_results[0] = df_init    
-    dict_results = {key: df_result.apply(lambda column: column-series_init, axis=0) for key, df_result in dict_results.items()}
+    dict_results = {key: df_result-df_init for key, df_result in dict_results.items()}
     
     df_results = []
     for key, df_result in dict_results.items():
