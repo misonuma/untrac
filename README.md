@@ -23,6 +23,8 @@ conda env create -n untrac -f untrac.yml
 conda activate untrac
 ```
 
+---
+
 ### Reproducing the experiments on the synthetic datasets
 
 - Train T5-XL-lm-adapt on the synthetic dataset A:
@@ -51,6 +53,9 @@ bash train_synthetic_loo.sh
 - Refer to `evaluate_synthetic.ipynb` if you want to assess UnTrac and UnTrac-Inv.  
 
 - Replace `synthetic_train00_dataset` & `synthetic_eval00_dataset` with `synthetic_train01_dataset` & `synthetic_eval01_dataset` in the shell scripts if you want to switch to the synthetic dataset B.
+
+
+---
 
 
 ### Reproducing the experiments on the pretraining datasets
